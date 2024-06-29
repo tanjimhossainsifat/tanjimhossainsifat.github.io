@@ -4,4 +4,15 @@
             "W5JF9YG7B3.com.internetpolitie.app"
         ]
     }
+
+    "applinks": {
+        "apps": [],
+        "details" : [
+            {
+                "appID": "W5JF9YG7B3.com.internetpolitie.app",
+                "paths": ["/signup/*"]
+            }
+        ]
+    }
+
 }
