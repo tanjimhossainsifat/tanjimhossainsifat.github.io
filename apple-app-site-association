@@ -1,12 +1,20 @@
-{
-    "applinks": {
-        "apps": [],
-        "details" : [
+ {
+  "applinks": {
+    "apps": [],
+    "details": [
+        {
+          "appIDs": ["W5JF9YG7B3.com.internetpolitie.app"],
+          "appID": "W5JF9YG7B3.com.internetpolitie.app",
+          "components": [
             {
-                "appID": "W5JF9YG7B3.com.internetpolitie.app",
-                "paths": ["*","/"]
+              "/": "/hhh"
             }
-        ]
-    }
-
+         ],
+           "paths": [ "/hhh" ]
+        }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["W5JF9YG7B3.com.internetpolitie.app"]
+  }
 }
