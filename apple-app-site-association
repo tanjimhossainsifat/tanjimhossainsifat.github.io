@@ -10,7 +10,7 @@
         "details" : [
             {
                 "appID": "W5JF9YG7B3.com.internetpolitie.app",
-                "paths": ["*"]
+                "paths": ["/test", "/test/*"]
             }
         ]
     }
