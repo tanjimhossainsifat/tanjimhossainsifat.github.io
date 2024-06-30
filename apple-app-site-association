@@ -3,14 +3,8 @@
     "apps": [],
     "details": [
         {
-          "appIDs": ["W5JF9YG7B3.com.internetpolitie.app"],
           "appID": "W5JF9YG7B3.com.internetpolitie.app",
-          "components": [
-            {
-              "/": "/hhh"
-            }
-         ],
-           "paths": [ "/hhh" ]
+           "paths": [ "/register" , "/register/*"]
         }
     ]
   },
