@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-  <html>
+<html>
     <head>
-  		<title>Test Test</title>
-  			<meta charset="UTF-8" />
-  			<meta http-equiv="refresh" content="1; URL=https://apps.apple.com/nl/app/internet-politie-fraudescanner/id1664444035" />
-  	</head>
-  	<body>
-  		<p>This page has been moved. If you are not redirected within 1 seconds, click <a href="https://apps.apple.com/nl/app/internet-politie-fraudescanner/id1664444035">here</a> to go to the Appstore.</p>
-  	</body>
-  </html>
+        <title>Test OS</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript">
+        function handleOperatingSystem() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            if (/android/i.test(userAgent)) {
+                window.location.replace("https://play.google.com/store/apps/details?id=com.internetpolice.app&hl=nl");
+            }
+
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.replace("https://apps.apple.com/nl/app/internet-politie-fraudescanner/id1664444035");
+            }
+}
+        window.onload = handleOperatingSystem;
+        </script>
+    </head>
+    <body>
+    
+    </body>
+</html>
